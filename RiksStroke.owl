@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/Precise4Q/ontologies/RiksStroke#"
+     xml:base="http://www.semanticweb.org/Precise4Q/ontologies/RiksStroke"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/Precise4Q/ontologies/RiksStroke">
+        <owl:imports rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToDressAssessmentUsingRiksStrokeAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToDressAssessmentUsingRiksStrokeAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/712492003"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingRiksStrokeAssessmentScale"/>
+        <rdfs:label>Assessment of ability to dress self using RiksStroke assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to dress self using RiksStroke index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToPerformToiletingActivitiesAssessmentUsingRiksStrokeAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToPerformToiletingActivitiesAssessmentUsingRiksStrokeAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/712492003"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingRiksStrokeAssessmentScale"/>
+        <rdfs:label>Assessment of ability to perform toileting activities using RiksStroke assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to perform toileting activities using RiksStroke assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToWalkAssessmentUsingRiksStrokeAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToWalkAssessmentUsingRiksStrokeAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/710828008"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingRiksStrokeAssessmentScale"/>
+        <rdfs:label>Assessment of ability to walk using RiksStroke assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to walk using RiksStroke assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AgeAtRiksStrokeObservable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AgeAtRiksStrokeObservable">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/105727008"/>
+        <rdfs:label>Age at RiksStroke (observable entity)</rdfs:label>
+        <skos:prefLabel>Age at RiksStroke</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingRiksStrokeAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingRiksStrokeAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/445536008"/>
+        <rdfs:label>Assessment using RiksStroke assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment using RiksStroke assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#RiksStrokeEvaluation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#RiksStrokeEvaluation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingRiksStrokeAssessmentScale"/>
+        <rdfs:label>RiksStroke evaluation (procedure)</rdfs:label>
+        <skos:prefLabel>RiksStroke evaluation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#RiksStrokeHistoryTakingProcedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#RiksStrokeHistoryTakingProcedure">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/84100007"/>
+        <rdfs:label>RiksStroke history taking (procedure)</rdfs:label>
+        <skos:prefLabel>RiksStroke history taking</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#RiksStrokeSession -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#RiksStrokeSession">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingRiksStrokeAssessmentScale"/>
+        <rdfs:label>RiksStroke session (procedure)</rdfs:label>
+        <skos:prefLabel>RiksStroke session</skos:prefLabel>
+    </owl:Class>
+
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#DependentForMobilizing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#DependentForMobilizing">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/413121008"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/427512004"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/248536006"/>
+        <rdfs:comment>Dependent for moving by walking or by using a wheelchair.</rdfs:comment>
+        <rdfs:label>Dependent for mobilizing (finding)</rdfs:label>
+        <skos:prefLabel>Dependent for mobilizing</skos:prefLabel>
+    </owl:Class>
+    
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LinkopingRiksStroke -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LinkopingRiksStroke">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#Dataset"/>
+        <rdfs:label>Linkoping RiksStroke (Dataset)</rdfs:label>
+        <skos:prefLabel>Linkoping RiksStroke</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#UniversityOfLinkoping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#UniversityOfLinkoping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#Organization"/>
+        <rdfs:label>University Of Linkoping (Organization)</rdfs:label>
+        <skos:prefLabel>University Of Linkoping</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#IndependentForMobilizing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#IndependentForMobilizing">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/165243005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/165245003"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/248536006"/>
+        <rdfs:comment>Independent for moving by walking or by using a wheelchair.</rdfs:comment>
+        <rdfs:label>Independent for mobilizing (finding)</rdfs:label>
+        <skos:prefLabel>Independent for mobilizing</skos:prefLabel>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

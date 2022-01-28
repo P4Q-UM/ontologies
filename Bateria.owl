@@ -1,0 +1,630 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/Precise4Q/ontologies/Bateria#"
+     xml:base="http://www.semanticweb.org/Precise4Q/ontologies/Bateria"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/Precise4Q/ontologies/Bateria">
+        <owl:imports rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://snomed.info/id/405017007 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/405017007">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToIdentifyPerson"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToIdentifyPlace"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToIdentifyTime"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/716205007 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/716205007">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExecutiveFunctionAssessmentUsingAssessmentScale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToIdentifyPerson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToIdentifyPerson">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/413384008"/>
+        <rdfs:label>Ability to identify person (observable entity)</rdfs:label>
+        <skos:prefLabel>Ability to identify person</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToIdentifyPlace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToIdentifyPlace">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/413384008"/>
+        <rdfs:label>Ability to identify place (observable entity)</rdfs:label>
+        <skos:prefLabel>Ability to identify place</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToIdentifyTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToIdentifyTime">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/413384008"/>
+        <rdfs:label>Ability to identify time (observable entity)</rdfs:label>
+        <skos:prefLabel>Ability to identify time</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AgeAtBateriaObservable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AgeAtBateriaObservable">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/105727008"/>
+        <rdfs:label>Age at bateria (observable)</rdfs:label>
+        <skos:prefLabel>Age at bateria</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AgeAtBateriaQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AgeAtBateriaQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#Age"/>
+        <rdfs:label>Age at Bateria (quality)</rdfs:label>
+        <skos:prefLabel>Age at Bateria</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingLanguageComprehensionBateriaTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingLanguageComprehensionBateriaTestScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>Follow 6 simple instructions to the patient</rdfs:comment>
+        <rdfs:label>Assessment using language comprehension bateria test scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>Peña-Casanova, J., et al. &quot;Shortened version of the Barcelona test (I): subtests and normal profiles.&quot; Neurología (Barcelona, Spain) 12.3 (1997): 99.</rdfs:seeAlso>
+        <skos:prefLabel>Assessment using language comprehension bateria test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingLanguageDenominationBateriaTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingLanguageDenominationBateriaTestScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>Denote (distinguish) 14 words</rdfs:comment>
+        <rdfs:label>Assessment using language denomination bateria test scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>Peña-Casanova, J., et al. &quot;Shortened version of the Barcelona test (I): subtests and normal profiles.&quot; Neurología (Barcelona, Spain) 12.3 (1997): 99.</rdfs:seeAlso>
+        <skos:prefLabel>Assessment using language denomination bateria test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingLanguageRepetitionBateriaTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingLanguageRepetitionBateriaTestScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>Repeat 10 words</rdfs:comment>
+        <rdfs:label>Assessment using language repetition bateria test scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>Peña-Casanova, J., et al. &quot;Shortened version of the Barcelona test (I): subtests and normal profiles.&quot; Neurología (Barcelona, Spain) 12.3 (1997): 99.</rdfs:seeAlso>
+        <skos:prefLabel>Assessment using language repetition bateria test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingLanguageVisualBateriaTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingLanguageVisualBateriaTestScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>Describe an image</rdfs:comment>
+        <rdfs:label>Assessment using language visual bateria test scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>Peña-Casanova, J., et al. &quot;Shortened version of the Barcelona test (I): subtests and normal profiles.&quot; Neurología (Barcelona, Spain) 12.3 (1997): 99.</rdfs:seeAlso>
+        <skos:prefLabel>Assessment using language visual bateria test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingMemoryDigitsBateriaTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingMemoryDigitsBateriaTestScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>Read sequences of digits and patient repeat it in reverse order</rdfs:comment>
+        <rdfs:label>Assessment using memory digits bateria test scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>Peña-Casanova, J., et al. &quot;Shortened version of the Barcelona test (I): subtests and normal profiles.&quot; Neurología (Barcelona, Spain) 12.3 (1997): 99.</rdfs:seeAlso>
+        <skos:prefLabel>Assessment using memory digits bateria test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingMemoryLettersBateriaTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingMemoryLettersBateriaTestScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>Patient repeats series of letters and numbers in order</rdfs:comment>
+        <rdfs:label>Assessment using memory letters bateria test scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>Peña-Casanova, J., et al. &quot;Shortened version of the Barcelona test (I): subtests and normal profiles.&quot; Neurología (Barcelona, Spain) 12.3 (1997): 99.</rdfs:seeAlso>
+        <skos:prefLabel>Assessment using memory letters bateria test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingPMRVerbalFluencyTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingPMRVerbalFluencyTestScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExecutiveFunctionAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>Patients write words starting with P,M,R in 1 min</rdfs:comment>
+        <rdfs:label>Assessment using PMR verbal fluency test scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>García-Rudolph, Alejandro, et al. &quot;Cognition assessments to predict inpatient falls in a subacute stroke rehabilitation setting.&quot; Topics in Stroke</rdfs:seeAlso>
+        <skos:prefLabel>Assessment using PMR verbal fluency test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingPersonalOrientationBateriaTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingPersonalOrientationBateriaTestScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#OrientationAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>Seven personal questions to verify if patient is aware of its basic information</rdfs:comment>
+        <rdfs:label>Assessment using personal orientation bateria test scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>Peña-Casanova, J., et al. &quot;Shortened version of the Barcelona test (I): subtests and normal profiles.&quot; Neurología (Barcelona, Spain) 12.3 (1997): 99.</rdfs:seeAlso>
+        <skos:prefLabel>Assessment using personal orientation bateria test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingRAVLFreeRecallMemoryTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingRAVLFreeRecallMemoryTestScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>Patient recalls words from original list after 20 min</rdfs:comment>
+        <rdfs:label>Assessment using RAVL free recall memory test scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>García-Rudolph, Alejandro, et al. &quot;Cognition assessments to predict inpatient falls in a subacute stroke rehabilitation setting.&quot; Topics in Stroke</rdfs:seeAlso>
+        <skos:prefLabel>Assessment using RAVL free recall memory test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingRAVLLearningTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingRAVLLearningTestScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>Patient hears a list of 15 words and recalls as many as he can during 5 trials</rdfs:comment>
+        <rdfs:label>Assessment using RAVL learning test scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>García-Rudolph, Alejandro, et al. &quot;Cognition assessments to predict inpatient falls in a subacute stroke rehabilitation setting.&quot; Topics in Stroke</rdfs:seeAlso>
+        <skos:altLabel>Rey Auditory Verbal Learning Test</skos:altLabel>
+        <skos:prefLabel>Assessment using RAVL learning test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingRAVLRecognitionTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingRAVLRecognitionTestScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>A list of 50 words is presented and patient needs to recall 15 original words</rdfs:comment>
+        <rdfs:label>Assessment using RAVL recognition test scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>García-Rudolph, Alejandro, et al. &quot;Cognition assessments to predict inpatient falls in a subacute stroke rehabilitation setting.&quot; Topics in Stroke</rdfs:seeAlso>
+        <skos:prefLabel>Assessment using RAVL recognition test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingSpatialOrientationBateriaTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingSpatialOrientationBateriaTestScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#OrientationAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>Five questions about the current location to verify if the patient is aware of its current location</rdfs:comment>
+        <rdfs:label>Assessment using spatial orientation bateria test scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>Peña-Casanova, J., et al. &quot;Shortened version of the Barcelona test (I): subtests and normal profiles.&quot; Neurología (Barcelona, Spain) 12.3 (1997): 99.</rdfs:seeAlso>
+        <skos:prefLabel>Assessment using spatial orientation bateria test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingStroopColorTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingStroopColorTestScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AttentionAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>Attention Color Stroop Test. Correct answers in a given time</rdfs:comment>
+        <rdfs:label>Assessment using stroop color test scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>Jensen, A. R., &amp; Rohwer Jr, W. D. (1966). The Stroop color-word test: a review. Acta psychologica, 25, 36-93.</rdfs:seeAlso>
+        <skos:prefLabel>Assessment using stroop color test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingStroopColorWordTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingStroopColorWordTestScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AttentionAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>Attention Color Word Stroop Test. Correct answers in a given time</rdfs:comment>
+        <rdfs:label>Assessment using stroop color word test scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>Jensen, A. R., &amp; Rohwer Jr, W. D. (1966). The Stroop color-word test: a review. Acta psychologica, 25, 36-93.</rdfs:seeAlso>
+        <skos:prefLabel>Assessment using stroop color word test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingStroopWordTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingStroopWordTestScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AttentionAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>Attention Word Stroop Test. Correct answers in a given time</rdfs:comment>
+        <rdfs:label>Assessment using stroop word test scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>Jensen, A. R., &amp; Rohwer Jr, W. D. (1966). The Stroop color-word test: a review. Acta psychologica, 25, 36-93.</rdfs:seeAlso>
+        <skos:prefLabel>Assessment using stroop word test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingTemporalOrientationBateriaTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingTemporalOrientationBateriaTestScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#OrientationAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>Ten questions about the current time to verify if patient is aware of current time</rdfs:comment>
+        <rdfs:label>Assessment using temporal orientation bateria test scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>Peña-Casanova, J., et al. &quot;Shortened version of the Barcelona test (I): subtests and normal profiles.&quot; Neurología (Barcelona, Spain) 12.3 (1997): 99.</rdfs:seeAlso>
+        <skos:prefLabel>Assessment using temporal orientation bateria test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingTrialMakingTestAScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingTrialMakingTestAScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AttentionAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>Patient connects a set of 25 dots as quick as possible, measure time</rdfs:comment>
+        <rdfs:label>Assessment using trial making test A scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>Axelrod, Bradley N. &quot;Administration duration for the Wechsler Adult Intelligence Scale-III and Wechsler Memory Scale-III.&quot; Archives of Clinical</rdfs:seeAlso>
+        <skos:prefLabel>Assessment using trial making test A scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingTrialMakingTestBScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingTrialMakingTestBScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AttentionAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>Patient connects a set of dots (numbers and letters 1,A,2,B) as quick as possible, measure time</rdfs:comment>
+        <rdfs:label>Assessment using trial making test B scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>Axelrod, Bradley N. &quot;Administration duration for the Wechsler Adult Intelligence Scale-III and Wechsler Memory Scale-III.&quot; Archives of Clinical</rdfs:seeAlso>
+        <skos:prefLabel>Assessment using trial making test B scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingWepmanDigitSpanTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingWepmanDigitSpanTestScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AttentionAssessmentUsingAssessmentScale"/>
+        <rdfs:comment>Read sequences of digits and patient repeat it</rdfs:comment>
+        <rdfs:label>Assessment using Wepman digit span test scale (procedure)</rdfs:label>
+        <rdfs:seeAlso>Axelrod, Bradley N. &quot;Administration duration for the Wechsler Adult Intelligence Scale-III and Wechsler Memory Scale-III.&quot; Archives of Clinical</rdfs:seeAlso>
+        <skos:prefLabel>Assessment using Wepman digit span test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AttentionAssessmentUsingAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AttentionAssessmentUsingAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/445536008"/>
+        <rdfs:label>Attention assessment using assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Attention assessment using assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BateriaHistoryTakingProcedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BateriaHistoryTakingProcedure">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/84100007"/>
+        <rdfs:label>Bateria history taking (procedure)</rdfs:label>
+        <skos:prefLabel>Bateria history taking</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BateriaQuestionnaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BateriaQuestionnaire">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#InformationObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BateriaSession -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BateriaSession">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/702474001"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BateriaTherapy"/>
+        <rdfs:label>Bateria session</rdfs:label>
+        <skos:prefLabel>Bateria session</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BateriaTherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BateriaTherapy">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/702474001"/>
+        <rdfs:label>Bateria therapy</rdfs:label>
+        <skos:prefLabel>Bateria therapy</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#DaysSinceInjuryToBateriaQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#DaysSinceInjuryToBateriaQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#DaysSinceInjuryQuality"/>
+        <rdfs:label>Days since injury to Bateria (quality)</rdfs:label>
+        <skos:prefLabel>Days since injury to Bateria</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExecutiveFunctionAssessmentUsingAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExecutiveFunctionAssessmentUsingAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/445536008"/>
+        <rdfs:label>Executive function assessment using assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Executive function assessment using assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannBateria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannBateria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#Dataset"/>
+        <rdfs:label>Guttmann Bateria (Dataset)</rdfs:label>
+        <skos:prefLabel>Guttmann Bateria</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannInstitute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannInstitute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#Organization"/>
+        <rdfs:label>Guttmann Institute (Organization)</rdfs:label>
+        <skos:prefLabel>Guttmann Institute</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageAssessmentUsingAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageAssessmentUsingAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/445536008"/>
+        <rdfs:label>Language assessment using assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Language assessment using assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageComprehensionBateriaTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageComprehensionBateriaTestScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/273249006"/>
+        <rdfs:label>Language comprehension bateria test scale (assessment scales)</rdfs:label>
+        <skos:prefLabel>Language comprehension bateria test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageDenominationBateriaTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageDenominationBateriaTestScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/273249006"/>
+        <rdfs:label>Language denomination bateria test scale (assessment scale)</rdfs:label>
+        <skos:prefLabel>Language denomination bateria test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageRepetitionBateriaTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageRepetitionBateriaTestScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/273249006"/>
+        <rdfs:label>Language repetition bateria test scale (assessment scale)</rdfs:label>
+        <skos:prefLabel>Language repetition bateria test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageVisualBateriaTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageVisualBateriaTestScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/273249006"/>
+        <rdfs:label>Language visual bateria test scale (assessment scale)</rdfs:label>
+        <skos:prefLabel>Language visual bateria test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryAssessmentUsingAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryAssessmentUsingAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/445536008"/>
+        <rdfs:label>Memory assessment using assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Memory assessment using assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryDigitsBateriaTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryDigitsBateriaTestScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/273249006"/>
+        <rdfs:label>Memory digits bateria test scale (assessment scale)</rdfs:label>
+        <skos:prefLabel>Memory digits bateria test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryLettersBateriaTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryLettersBateriaTestScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/273249006"/>
+        <rdfs:label>Memory letters bateria test scale (assessment scale)</rdfs:label>
+        <skos:prefLabel>Memory letters bateria test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#OrientationAssessmentUsingAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#OrientationAssessmentUsingAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/445536008"/>
+        <rdfs:label>Orientation assessment using assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Orientation assessment using assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#PMRFluencyTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#PMRFluencyTestScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/273249006"/>
+        <rdfs:label>PMR fluency test scale (assessment scale)</rdfs:label>
+        <skos:prefLabel>PMR fluency test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#PersonalOrientationBateriaTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#PersonalOrientationBateriaTestScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/273249006"/>
+        <rdfs:label>Personal orientation bateria test scale (assessment scale)</rdfs:label>
+        <skos:prefLabel>Personal orientation bateria test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#PersonalOrientationObservationResultStatement -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#PersonalOrientationObservationResultStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#OrientationObservationResultStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToIdentifyPerson"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#RAVLFreeRecallMemoryTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#RAVLFreeRecallMemoryTestScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/273249006"/>
+        <rdfs:label>RAVL free recall memory test scale (assessment scale)</rdfs:label>
+        <skos:prefLabel>RAVL free recall memory test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#RAVLLearningTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#RAVLLearningTestScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/273249006"/>
+        <rdfs:label>RAVL learning test scale (assessment scale)</rdfs:label>
+        <skos:prefLabel>RAVL learning test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#RAVLRecognitionTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#RAVLRecognitionTestScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/273249006"/>
+        <rdfs:label>RAVL recognition test scale (assessment scale)</rdfs:label>
+        <skos:prefLabel>RAVL recognition test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SpatialOrientationBateriaTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SpatialOrientationBateriaTestScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/273249006"/>
+        <rdfs:label>Spatial orientation bateria test scale (assessment scale)</rdfs:label>
+        <skos:prefLabel>Spatial orientation bateria test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SpatialOrientationObservationResultStatement -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SpatialOrientationObservationResultStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#OrientationObservationResultStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToIdentifyPlace"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TemporalOrientationBateriaTestScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TemporalOrientationBateriaTestScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/273249006"/>
+        <rdfs:label>Temporal orientation bateria test scale (assessment scale)</rdfs:label>
+        <skos:prefLabel>Temporal orientation bateria test scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TemporalOrientationObservationResultStatement -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TemporalOrientationObservationResultStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#OrientationObservationResultStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToIdentifyTime"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

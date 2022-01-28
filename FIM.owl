@@ -1,0 +1,360 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/Precise4Q/ontologies/FIM#"
+     xml:base="http://www.semanticweb.org/Precise4Q/ontologies/FIM"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/Precise4Q/ontologies/FIM">
+        <owl:imports rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToBatheSelfAssessmentUsingFIMIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToBatheSelfAssessmentUsingFIMIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/712492003"/>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>Assessment of ability to bathe self using FIM index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to bathe self using FIM index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToComprehendAssessmentUsingFIMIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToComprehendAssessmentUsingFIMIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>Assessment of ability to comprehend using FIM index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to comprehend control using FIM index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToDressAssessmentUsingFIMIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToDressAssessmentUsingFIMIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/712492003"/>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>Assessment of ability to dress self using FIM index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to dress self using FIM index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToExpressAssessmentUsingFIMIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToExpressAssessmentUsingFIMIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>Assessment of expression capabilities using FIM index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of expression capabilities using FIM index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToInteractWithOthersAssessmentUsingFIMIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToInteractWithOthersAssessmentUsingFIMIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>Assessment of ability to interact with others using FIM index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to interact with others using FIM index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToManageStairsAssessmentUsingFIMIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToManageStairsAssessmentUsingFIMIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/430481008"/>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>Assessment of ability to manage stairs using FIM index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to manage stairs using FIM index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToMobilizeAssessmentUsingFIMIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToMobilizeAssessmentUsingFIMIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/430481008"/>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>Assessment of ability to mobilize using FIM index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to mobilize using FIM index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToPerformPersonalGroomingAssessmentUsingFIMIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToPerformPersonalGroomingAssessmentUsingFIMIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/712492003"/>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>Assessment of ability to perform personal grooming using FIM index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to perform personal grooming using FIM index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToPerformToiletingActivitiesAssessmentUsingFIMIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToPerformToiletingActivitiesAssessmentUsingFIMIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/712492003"/>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>Assessment of ability to perform toileting activities using FIM index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to perform toileting activities using FIM index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToSolveProblemsAssessmentUsingFIMIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToSolveProblemsAssessmentUsingFIMIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>Assessment of ability to solve problems using FIM index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to solve problems using FIM index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToTransferFromChairToBedAssessmentUsingFIMIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToTransferFromChairToBedAssessmentUsingFIMIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/430481008"/>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>Assessment of ability to transfer from chair to bed using FIM index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to transfer from chair to bed using FIM index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToTransferFromChairToShowerAssessmentUsingFIMIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToTransferFromChairToShowerAssessmentUsingFIMIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/430481008"/>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>Assessment of ability to transfer from chair to shower using FIM index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to transfer from chair to shower using FIM index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToTransferFromChairToToiletAssessmentUsingFIMIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToTransferFromChairToToiletAssessmentUsingFIMIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/430481008"/>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>Assessment of ability to transfer from chair to toilet using FIM index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to transfer from chair to toilet using FIM index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AgeAtFIMObservable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AgeAtFIMObservable">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/105727008"/>
+        <rdfs:label>Age at FIM (observable entity)</rdfs:label>
+        <skos:prefLabel>Age at FIM</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BladderControlAssessmentUsingFIMIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BladderControlAssessmentUsingFIMIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>Assessment of bladder control using FIM index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of bladder control using FIM index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BowelControlAssessmentUsingFIMIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BowelControlAssessmentUsingFIMIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>Assessment of bowel control using FIM index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of bowel control  using FIM index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#DependentForMobilizing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#DependentForMobilizing">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/413121008"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/427512004"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/248536006"/>
+        <rdfs:comment>Dependent for moving by walking or by using a wheelchair.</rdfs:comment>
+        <rdfs:label>Dependent for mobilizing (finding)</rdfs:label>
+        <skos:prefLabel>Dependent for mobilizing</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FIMCognitionScore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FIMCognitionScore">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716795003"/>
+        <rdfs:label>Functional Independence Measure cognition score (observable entity)</rdfs:label>
+        <skos:altLabel>FIM cognition score</skos:altLabel>
+        <skos:prefLabel>Functional Independence cognition score</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FIMEvaluation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FIMEvaluation">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>FIM evaluation (procedure)</rdfs:label>
+        <skos:altLabel>Functional Independence Measure evaluation</skos:altLabel>
+        <skos:prefLabel>FIM evaluation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FIMHistoryTakingProcedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FIMHistoryTakingProcedure">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/84100007"/>
+        <rdfs:label>FIM history taking (procedure)</rdfs:label>
+        <skos:prefLabel>FIM history taking</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FIMMotorScore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FIMMotorScore">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716795003"/>
+        <rdfs:label>Functional Independence Measure motor score (observable entity)</rdfs:label>
+        <skos:altLabel>FIM motor score</skos:altLabel>
+        <skos:prefLabel>Functional Independence Measure motor score</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FIMSession -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FIMSession">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>FIM session (procedure)</rdfs:label>
+        <skos:prefLabel>FIM session</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FIMTotalScore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FIMTotalScore">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716795003"/>
+        <rdfs:label>Functional Independence Measure total score (observable entity)</rdfs:label>
+        <skos:altLabel>FIM total score</skos:altLabel>
+        <skos:prefLabel>Functional Independence Measure total score</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FeedingAbilityAssessmentUsingFIMIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FeedingAbilityAssessmentUsingFIMIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>Assessment of feeding ability using FIM index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of feeding ability using FIM index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannFIM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannFIM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#Dataset"/>
+        <rdfs:label>Guttmann FIM (Dataset)</rdfs:label>
+        <skos:prefLabel>Guttmann FIM</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannInstitute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannInstitute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#Organization"/>
+        <rdfs:label>Guttmann Institute (Organization)</rdfs:label>
+        <skos:prefLabel>Guttmann Institute</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#IndependentForMobilizing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#IndependentForMobilizing">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/165243005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/165245003"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/248536006"/>
+        <rdfs:comment>Independent for moving by walking or by using a wheelchair.</rdfs:comment>
+        <rdfs:label>Independent for mobilizing (finding)</rdfs:label>
+        <skos:prefLabel>Independent for mobilizing</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryAssessmentUsingFIMIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryAssessmentUsingFIMIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/716793005"/>
+        <rdfs:label>Memory assessment using FIM index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Memory assessment using FIM index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FIMCognitionScore"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FIMMotorScore"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FIMTotalScore"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

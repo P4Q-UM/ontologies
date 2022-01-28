@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/Precise4Q/ontologies/Barthel#"
+     xml:base="http://www.semanticweb.org/Precise4Q/ontologies/Barthel"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/Precise4Q/ontologies/Barthel">
+        <owl:imports rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToBatheSelfAssessmentUsingBarthelIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToBatheSelfAssessmentUsingBarthelIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/712492003"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingBarthelIndexAssessmentScale"/>
+        <rdfs:label>Assessment of ability to bathe self using Barthel index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to bathe self using Barthel index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToDressAssessmentUsingBarthelIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToDressAssessmentUsingBarthelIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/712492003"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingBarthelIndexAssessmentScale"/>
+        <rdfs:label>Assessment of ability to dress self using Barthel index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to dress self using Barthel index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToManageStairsAssessmentUsingBarthelIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToManageStairsAssessmentUsingBarthelIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/430481008"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingBarthelIndexAssessmentScale"/>
+        <rdfs:label>Assessment of ability to manage stairs using Barthel index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to manage stairs using Barthel index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToPerformPersonalGroomingAssessmentUsingBarthelIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToPerformPersonalGroomingAssessmentUsingBarthelIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/712492003"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingBarthelIndexAssessmentScale"/>
+        <rdfs:label>Assessment of ability to perform personal grooming using Barthel index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to perform personal grooming using Barthel index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToPerformToiletingActivitiesAssessmentUsingBarthelIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToPerformToiletingActivitiesAssessmentUsingBarthelIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/712492003"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingBarthelIndexAssessmentScale"/>
+        <rdfs:label>Assessment of ability to perform toileting activities using Barthel index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to perform toileting activities using Barthel index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToTransferFromChairToBedAssessmentUsingBarthelIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToTransferFromChairToBedAssessmentUsingBarthelIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/430481008"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingBarthelIndexAssessmentScale"/>
+        <rdfs:label>Assessment of ability to transfer from chair to bed using Barthel index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to transfer from chair to bed using Barthel index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToWalkAssessmentUsingBarthelIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToWalkAssessmentUsingBarthelIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/710828008"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingBarthelIndexAssessmentScale"/>
+        <rdfs:label>Assessment of ability to walk using Barthel index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of ability to walk using Barthel index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AgeAtBarthelObservable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AgeAtBarthelObservable">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/105727008"/>
+        <rdfs:label>Age at Barthel (observable entity)</rdfs:label>
+        <skos:prefLabel>Age at Barthel</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingBarthelIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingBarthelIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/445536008"/>
+        <rdfs:label>Assessment using Barthel index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment using Barthel index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BarthelEvaluation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BarthelEvaluation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingBarthelIndexAssessmentScale"/>
+        <rdfs:label>Barthel evaluation (procedure)</rdfs:label>
+        <skos:prefLabel>Barthel evaluation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BarthelHistoryTakingProcedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BarthelHistoryTakingProcedure">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/84100007"/>
+        <rdfs:label>Barthel history taking (procedure)</rdfs:label>
+        <skos:prefLabel>Barthel history taking</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BarthelSession -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BarthelSession">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingBarthelIndexAssessmentScale"/>
+        <rdfs:label>Barthel session (procedure)</rdfs:label>
+        <skos:prefLabel>Barthel session</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BladderControlAssessmentUsingBarthelIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BladderControlAssessmentUsingBarthelIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingBarthelIndexAssessmentScale"/>
+        <rdfs:label>Assessment of bladder control using Barthel index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of bladder control using Barthel index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BowelControlAssessmentUsingBarthelIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#BowelControlAssessmentUsingBarthelIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingBarthelIndexAssessmentScale"/>
+        <rdfs:label>Assessment of bowel control using Barthel index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of bowel control  using Barthel index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#DependentForMobilizing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#DependentForMobilizing">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/413121008"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/427512004"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/248536006"/>
+        <rdfs:comment>Dependent for moving by walking or by using a wheelchair.</rdfs:comment>
+        <rdfs:label>Dependent for mobilizing (finding)</rdfs:label>
+        <skos:prefLabel>Dependent for mobilizing</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FeedingAbilityAssessmentUsingBarthelIndexAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FeedingAbilityAssessmentUsingBarthelIndexAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingBarthelIndexAssessmentScale"/>
+        <rdfs:label>Assessment of feeding ability using Barthel index assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment of feeding ability using Barthel index assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannBarthel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannBarthel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#Dataset"/>
+        <rdfs:label>Guttmann Barthel (Dataset)</rdfs:label>
+        <skos:prefLabel>Guttmann Barthel</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannInstitute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannInstitute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#Organization"/>
+        <rdfs:label>Guttmann Institute (Organization)</rdfs:label>
+        <skos:prefLabel>Guttmann Institute</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#IndependentForMobilizing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#IndependentForMobilizing">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/165243005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/165245003"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/248536006"/>
+        <rdfs:comment>Independent for moving by walking or by using a wheelchair.</rdfs:comment>
+        <rdfs:label>Independent for mobilizing (finding)</rdfs:label>
+        <skos:prefLabel>Independent for mobilizing</skos:prefLabel>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

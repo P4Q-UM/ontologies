@@ -1,0 +1,382 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#"
+     xml:base="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:btl2="http://purl.org/biotop/btl2.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q">
+        <owl:imports rdf:resource="http://snomed.info/sct/SCTJULY21_STROKE.owl"/>
+        <owl:imports rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://snomed.info/id/258695005 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/258695005">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#UnitsOfMeasurement"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToComprehendObservationResultStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToComprehendObservationResultStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageObservationResultStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/395659009"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageObservationResultStatement"/>
+        <rdfs:label>Ability to comprehend observation result statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToDirectAttentionObservationResultStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToDirectAttentionObservationResultStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AttentionObservationResultStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/288768002"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AttentionObservationResultStatement"/>
+        <rdfs:label>Ability to direct attention observation result statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToInferMeaningObservationResultStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToInferMeaningObservationResultStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageObservationResultStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/310821007"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageObservationResultStatement"/>
+        <rdfs:label>Ability to infer meaning observation result statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToUseElementsOfLanguageObservationResultStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToUseElementsOfLanguageObservationResultStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageObservationResultStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/288603003"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageObservationResultStatement"/>
+        <rdfs:label>Ability to use elements of language observarion result statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToUseLanguageObservationResultStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AbilityToUseLanguageObservationResultStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageObservationResultStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/286361000"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageObservationResultStatement"/>
+        <rdfs:label>Ability to use language observation result statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AgeAtLessionObservable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AgeAtLessionObservable">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/105727008"/>
+        <rdfs:label>Age at lession (observable)</rdfs:label>
+        <skos:prefLabel>Age at lession</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AttentionObservationResultStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AttentionObservationResultStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#ObservationResultStatement"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/288768002"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/6769007"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#ObservationResultStatement"/>
+        <rdfs:label>Attention observation result statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#DaysSinceInjury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#DaysSinceInjury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TimeSinceInjury"/>
+        <rdfs:label>Days since injury (observable)</rdfs:label>
+        <skos:prefLabel>Days since injury</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExecutiveCognitiveFunctionsObservationResultStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExecutiveCognitiveFunctionsObservationResultStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#ObservationResultStatement"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/311507007"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/312023000"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#ObservationResultStatement"/>
+        <rdfs:label>Executive cognitive functions observation result statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageFluencyObservationResultStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageFluencyObservationResultStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageObservationResultStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/32650004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageObservationResultStatement"/>
+        <rdfs:label>Language fluency observation result statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageObservationResultStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageObservationResultStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#ObservationResultStatement"/>
+        <rdfs:label>Language observation result statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryObservationResultStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryObservationResultStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#ObservationResultStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/363887009"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#ObservationResultStatement"/>
+        <rdfs:label>Memory observation result statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryPerformanceObservationResultStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryPerformanceObservationResultStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryObservationResultStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/363888004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryObservationResultStatement"/>
+        <rdfs:label>Memory performance observation result statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MonthsSinceInjury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MonthsSinceInjury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TimeSinceInjury"/>
+        <rdfs:label>Months since injury (observable)</rdfs:label>
+        <skos:prefLabel>Months since injury</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#OrientationObservationResultStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#OrientationObservationResultStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#ObservationResultStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/405017007"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#ObservationResultStatement"/>
+        <rdfs:label>Orientation observation result statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#PersonalOrientationObservationResultStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#PersonalOrientationObservationResultStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#OrientationObservationResultStatement"/>
+        <rdfs:label>Personal orientation observation result statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SkillsRelatingToExecutiveCognitiveFunctionsObservationResultStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SkillsRelatingToExecutiveCognitiveFunctionsObservationResultStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExecutiveCognitiveFunctionsObservationResultStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/312023000"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExecutiveCognitiveFunctionsObservationResultStatement"/>
+        <rdfs:label>Skills relating to executive cognitive functions observation result statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SpatialOrientationObservationResultStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SpatialOrientationObservationResultStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#OrientationObservationResultStatement"/>
+        <rdfs:label>Spatial orientation observation result statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TemporalOrientationObservationResultStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TemporalOrientationObservationResultStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#OrientationObservationResultStatement"/>
+        <rdfs:label>Temporal orientation observation result statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TimeSinceInjury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TimeSinceInjury">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/363787002"/>
+        <rdfs:label>Time since injury (observable)</rdfs:label>
+        <skos:prefLabel>Time since injury</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#YearsSinceInjury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#YearsSinceInjury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TimeSinceInjury"/>
+        <rdfs:label>Years since injury (obervable)</rdfs:label>
+        <skos:prefLabel>Years since injury</skos:prefLabel>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

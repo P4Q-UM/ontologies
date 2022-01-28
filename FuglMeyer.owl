@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/Precise4Q/ontologies/FuglMeyer#"
+     xml:base="http://www.semanticweb.org/Precise4Q/ontologies/FuglMeyer"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/Precise4Q/ontologies/FuglMeyer">
+        <owl:imports rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AgeAtFuglMeyerObservable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AgeAtFuglMeyerObservable">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/105727008"/>
+        <rdfs:label>Age at Fugl-Meyer assessment (observable entity)</rdfs:label>
+        <skos:prefLabel>Age at Fugl-Meyer assessment</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingFuglMeyerAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingFuglMeyerAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/445536008"/>
+        <rdfs:label>Assessment using Fugl-Meyer assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Assessment using Fugl-Meyer scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExtensorSynergyAssessmentUsingFuglMeyerAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExtensorSynergyAssessmentUsingFuglMeyerAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingFuglMeyerAssessmentScale"/>
+        <rdfs:label>Extensor synergy assessment using Fugl-Meyer assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Extensor synergy assessment using Fugl-Meyer assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExtensorSynergyElbowExtensionAssessmentUsingFuglMeyerAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExtensorSynergyElbowExtensionAssessmentUsingFuglMeyerAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExtensorSynergyAssessmentUsingFuglMeyerAssessmentScale"/>
+        <rdfs:label>Extensor synergy elbow extension assessment using Fugl-Meyer assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Extensor synergy elbow extension assessment using Fugl-Meyer assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FlexorSynergyAbductionAssessmentUsingFuglMeyerAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FlexorSynergyAbductionAssessmentUsingFuglMeyerAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FlexorSynergyAssessmentUsingFuglMeyerAssessmentScale"/>
+        <rdfs:label>Flexor synergy abduction assessment using Fugl-Meyer assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Flexor synergy abduction assessment using Fugl-Meyer assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FlexorSynergyAssessmentUsingFuglMeyerAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FlexorSynergyAssessmentUsingFuglMeyerAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingFuglMeyerAssessmentScale"/>
+        <rdfs:label>Flexor synergy assessment using Fugl-Meyer assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Flexor synergy assessment using Fugl-Meyer assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FuglMeyerAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FuglMeyerAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/273249006"/>
+        <rdfs:comment>The Fugl-Meyer Assessment scale is an ordinal scale that has 3 points for each item. A zero score is given for the item if the subject cannot do the task. A score of 1 is given when the task is performed partially and a score of 2 is given when the task is performed fully.</rdfs:comment>
+        <rdfs:label>Fugl-Meyer (assessment scale)</rdfs:label>
+        <skos:prefLabel>Fugl-Meyer scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FuglMeyerEvaluationProcedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FuglMeyerEvaluationProcedure">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/733919004"/>
+        <rdfs:label>Fugl-Meyer evaluation (procedure)</rdfs:label>
+        <skos:prefLabel>Fugl-Meyer evaluation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FuglMeyerHistoryTakingProcedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FuglMeyerHistoryTakingProcedure">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/84100007"/>
+        <rdfs:label>Fugl-Meyer history taking (procedure)</rdfs:label>
+        <skos:prefLabel>Fugl-Meyer history taking</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FuglMeyerSessionAtAdmissionProcedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FuglMeyerSessionAtAdmissionProcedure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FuglMeyerSessionProcedure"/>
+        <rdfs:label>Fugl-Meyer session at admission (procedure)</rdfs:label>
+        <skos:prefLabel>Fugl-Meyer session at admission</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FuglMeyerSessionAtDischargeProcedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FuglMeyerSessionAtDischargeProcedure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FuglMeyerSessionProcedure"/>
+        <rdfs:label>Fugl-Meyer session at discharge (procedure)</rdfs:label>
+        <skos:prefLabel>Fugl-Meyer session at discharge</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FuglMeyerSessionProcedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FuglMeyerSessionProcedure">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/733919004"/>
+        <rdfs:label>Fugl-Meyer session (procedure)</rdfs:label>
+        <skos:prefLabel>Fugl-Meyer session</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannFuglMeyer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannFuglMeyer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#Dataset"/>
+        <rdfs:label>Guttmann Fugl-Meyer (Dataset)</rdfs:label>
+        <skos:prefLabel>Guttmann Fugl-Meyer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannInstitute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannInstitute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#Organization"/>
+        <rdfs:label>Guttmann Institute (Organization)</rdfs:label>
+        <skos:prefLabel>Guttmann Institute</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HandAssessmentUsingFuglMeyerAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HandAssessmentUsingFuglMeyerAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingFuglMeyerAssessmentScale"/>
+        <rdfs:label>Hand assessment using Fugl-Meyer assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Hand assessment using Fugl-Meyer assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HandFingerMassExtensionAssessmentUsingFuglMeyerAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HandFingerMassExtensionAssessmentUsingFuglMeyerAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HandAssessmentUsingFuglMeyerAssessmentScale"/>
+        <rdfs:label>Hand finger mass extension assessment using Fugl-Meyer assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Hand finger mass extension assessment using Fugl-Meyer assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HandGraspIIIAssessmentUsingFuglMeyerAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HandGraspIIIAssessmentUsingFuglMeyerAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HandAssessmentUsingFuglMeyerAssessmentScale"/>
+        <rdfs:label>Hand grasp III assessment using Fugl-Meyer assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Hand grasp III assessment using Fugl-Meyer assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HandGraspIVAssessmentUsingFuglMeyerAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HandGraspIVAssessmentUsingFuglMeyerAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HandAssessmentUsingFuglMeyerAssessmentScale"/>
+        <rdfs:label>Hand grasp IV assessment using Fugl-Meyer assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Hand grasp IV assessment using Fugl-Meyer assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ICareConsortium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ICareConsortium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#Organization"/>
+        <rdfs:label>ICare consortium (Organization)</rdfs:label>
+        <skos:prefLabel>ICare consortium</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ICareFuglMeyer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ICareFuglMeyer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#Dataset"/>
+        <rdfs:label>ICare Fugl-Meyer (Dataset)</rdfs:label>
+        <skos:prefLabel>ICare Fugl-Meyer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MovementCombinationSynergiesAssessmentUsingFuglMeyerAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MovementCombinationSynergiesAssessmentUsingFuglMeyerAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingFuglMeyerAssessmentScale"/>
+        <rdfs:label>Movement combination synergies assessment using Fugl-Meyer assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Movement combination synergies assessment using Fugl-Meyer assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MovementCombinationSynergiesPronationSupinationAssessmentUsingFuglMeyerAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MovementCombinationSynergiesPronationSupinationAssessmentUsingFuglMeyerAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MovementCombinationSynergiesAssessmentUsingFuglMeyerAssessmentScale"/>
+        <rdfs:label>Movement combination synergies pronation and supination assessment using Fugl-Meyer assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Movement combination synergies pronation and supination assessment using Fugl-Meyer assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#WristAssessmentUsingFuglMeyerAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#WristAssessmentUsingFuglMeyerAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingFuglMeyerAssessmentScale"/>
+        <rdfs:label>Wrist assessment using Fugl-Meyer assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Wrist assessment using Fugl-Meyer assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#WristStabilityAssessmentUsingFuglMeyerAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#WristStabilityAssessmentUsingFuglMeyerAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#WristAssessmentUsingFuglMeyerAssessmentScale"/>
+        <rdfs:label>Wrist stability assessment using Fugl-Meyer assessment scale (procedure)</rdfs:label>
+        <skos:prefLabel>Wrist stability assessment using Fugl-Meyer assessment scale</skos:prefLabel>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

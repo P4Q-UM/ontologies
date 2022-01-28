@@ -1,0 +1,449 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/Precise4Q/ontologies/GNPT#"
+     xml:base="http://www.semanticweb.org/Precise4Q/ontologies/GNPT"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/Precise4Q/ontologies/GNPT">
+        <owl:imports rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#DifficultLevel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#DifficultLevel">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ProcessQuality"/>
+        <rdfs:label>Difficulty level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#NumTask -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#NumTask">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ProcessQuality"/>
+        <rdfs:label>Task number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#ProcessIdentifier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#ProcessIdentifier">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ProcessQuality"/>
+        <rdfs:label>Identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#ProcessName -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#ProcessName">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ProcessQuality"/>
+        <rdfs:label>Name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#TherapeuticRange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#TherapeuticRange">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ProcessQuality"/>
+        <rdfs:label>Therapeutic range</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingGNPTAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingGNPTAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/113024001"/>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/445536008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Rehabilitation training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AttentionAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AttentionAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingGNPTAssessmentScale"/>
+        <rdfs:label>Attention assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Attention training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CalculusAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CalculusAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingGNPTAssessmentScale"/>
+        <rdfs:label>Calculus assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Calculus training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CategorizationExecutiveFunctionAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CategorizationExecutiveFunctionAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExecutiveFunctionAssessmentUsingGNPT"/>
+        <rdfs:label>Categorization executive function assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Categorization executive function training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CognitiveBiasSocialCognitionAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CognitiveBiasSocialCognitionAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SocialCognitionAssessmentUsingGNPT"/>
+        <rdfs:label>Cognitive bias social cognition assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Cognitve bias social cognition training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ConstructivePraxisAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ConstructivePraxisAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#PraxisAssessmentUsingGNPT"/>
+        <rdfs:label>Constructive praxis assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Constructive praxis training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#DividedAttentionAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#DividedAttentionAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AttentionAssessmentUsingGNPT"/>
+        <rdfs:label>Divided attention assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Divided attention training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EmotionalProcessingSocialCognitionAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EmotionalProcessingSocialCognitionAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SocialCognitionAssessmentUsingGNPT"/>
+        <rdfs:label>Emotional processing social cognition assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Emotional processing social cognition training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExecutiveFunctionAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExecutiveFunctionAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingGNPTAssessmentScale"/>
+        <rdfs:label>Executive function assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Executive Function training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FlexibilityExecutiveFunctionAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FlexibilityExecutiveFunctionAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExecutiveFunctionAssessmentUsingGNPT"/>
+        <rdfs:label>Flexibility executive function assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Flexibility executive function training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GNPTAssessmentScale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GNPTAssessmentScale">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/273249006"/>
+        <rdfs:label>GNPT assessment scale (assessment scale)</rdfs:label>
+        <skos:altLabel>Guttmann NeuroPersonalTrainer assessment scale</skos:altLabel>
+        <skos:prefLabel>GNPT assessment scale</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GNPTSession -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GNPTSession">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/702474001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingGNPTAssessmentScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>GNPT session (procedure)</rdfs:label>
+        <skos:prefLabel>GNPT session</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GNPTTherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GNPTTherapy">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/702474001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GNPTSession"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>GNPT therapy (procedure)</rdfs:label>
+        <skos:prefLabel>GNPT therapy</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GnosisAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GnosisAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingGNPTAssessmentScale"/>
+        <rdfs:label>Gnosis assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Gnosis training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#Dataset"/>
+        <rdfs:label>Guttmann GNPT (Dataset)</rdfs:label>
+        <skos:prefLabel>Guttmann GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannInstitute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannInstitute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#Organization"/>
+        <rdfs:label>Guttmann Institute (Organization)</rdfs:label>
+        <skos:prefLabel>Guttmann Institute</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#InhibitionExecutiveFunctionAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#InhibitionExecutiveFunctionAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExecutiveFunctionAssessmentUsingGNPT"/>
+        <rdfs:label>Inhibition executive function assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Inhibition executive function training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingGNPTAssessmentScale"/>
+        <rdfs:label>Language assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Language training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ListeningLanguageAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ListeningLanguageAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageAssessmentUsingGNPT"/>
+        <rdfs:label>Listening language assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Listening language training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingGNPTAssessmentScale"/>
+        <rdfs:label>Memory assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Memory training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MentalCalculationAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MentalCalculationAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CalculusAssessmentUsingGNPT"/>
+        <rdfs:label>Mental calculation assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Mental calculation training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#OrientationAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#OrientationAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingGNPTAssessmentScale"/>
+        <rdfs:label>Orientation assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Orientation training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#PlanificationExecutiveFunctionAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#PlanificationExecutiveFunctionAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExecutiveFunctionAssessmentUsingGNPT"/>
+        <rdfs:label>Planification executive function assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Planification executive function training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#PraxisAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#PraxisAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingGNPTAssessmentScale"/>
+        <rdfs:label>Praxis assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Praxis assessment using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ReadingLanguageAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ReadingLanguageAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageAssessmentUsingGNPT"/>
+        <rdfs:label>Reading language assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Reading language training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SelectiveAttentionAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SelectiveAttentionAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AttentionAssessmentUsingGNPT"/>
+        <rdfs:label>Selective attention assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Selective attention training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SequencingExecutiveFunctionAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SequencingExecutiveFunctionAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#ExecutiveFunctionAssessmentUsingGNPT"/>
+        <rdfs:label>Sequencing executive function assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Sequencing executive function training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SocialCognitionAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SocialCognitionAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AssessmentUsingGNPTAssessmentScale"/>
+        <rdfs:label>Social cognition assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Social cognition training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SustainedAttentionAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SustainedAttentionAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AttentionAssessmentUsingGNPT"/>
+        <rdfs:label>Sustained attention assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Sustained attention training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TemporoSpatialOrientationAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TemporoSpatialOrientationAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#OrientationAssessmentUsingGNPT"/>
+        <rdfs:label>Temporo-spatial orientation assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Temporo-spatial orientation training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TheoryOfMindSocialCognitionAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TheoryOfMindSocialCognitionAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SocialCognitionAssessmentUsingGNPT"/>
+        <rdfs:label>Theory of mind social cognition assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Theory of mind  social cognition training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#VerbalMemoryAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#VerbalMemoryAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryAssessmentUsingGNPT"/>
+        <rdfs:label>Verbal memory assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Verbal memory training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#VisualGnosisAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#VisualGnosisAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GnosisAssessmentUsingGNPT"/>
+        <rdfs:label>Visual gnosis assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Visual gnosis training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#VisualMemoryAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#VisualMemoryAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryAssessmentUsingGNPT"/>
+        <rdfs:label>Visual memory assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Visual memory training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#WorkingMemoryAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#WorkingMemoryAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MemoryAssessmentUsingGNPT"/>
+        <rdfs:label>Working memory assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Working memory training using GNPT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#WritingLanguageAssessmentUsingGNPT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#WritingLanguageAssessmentUsingGNPT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LanguageAssessmentUsingGNPT"/>
+        <rdfs:label>Writing language assessment using GNPT (procedure)</rdfs:label>
+        <skos:prefLabel>Writing language training using GNPT</skos:prefLabel>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

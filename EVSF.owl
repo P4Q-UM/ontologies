@@ -1,0 +1,572 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/Precise4Q/ontologies/EVSF#"
+     xml:base="http://www.semanticweb.org/Precise4Q/ontologies/EVSF"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/Precise4Q/ontologies/EVSF">
+        <owl:imports rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://snomed.info/id/105530003 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/105530003">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CoexistenceFinding"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/105531004 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/105531004">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HomeStatusFinding"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/160725005 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/160725005">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CoexistenceFinding"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/160726006 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/160726006">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CoexistenceFinding"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/161036002 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/161036002">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HomeStatusFinding"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/224130005 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/224130005">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CoexistenceObservable"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/224167002 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/224167002">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EconomicSituationObservable"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/224187001 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/224187001">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EconomicSituationFinding"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/224188006 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/224188006">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EconomicSituationFinding"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/224209007 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/224209007">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CoexistenceObservable"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HomeStatusObservable"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/224210002 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/224210002">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HomeStatusObservable"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/224249004 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/224249004">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HomeStatusObservable"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/224503009 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/224503009">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FamilySupportObservable"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/302160007 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/302160007">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FamilySupportObservable"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/32911000 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/32911000">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HomeStatusFinding"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/365481000 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/365481000">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CoexistenceFinding"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/423155007 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/423155007">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HomeStatusFinding"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AgeAtEVSFObservable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AgeAtEVSFObservable">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/105727008"/>
+        <rdfs:label>Age at EVSF (observable)</rdfs:label>
+        <skos:prefLabel>Age at EVSF</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AgeAtEVSFQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AgeAtEVSFQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#Age"/>
+        <rdfs:label>Age at EVSF (quality)</rdfs:label>
+        <skos:altLabel>Age at Socio-Family Assessment Scale</skos:altLabel>
+        <skos:prefLabel>Age at EVSF</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AutonomousOrWithEnoughInformalSupportFinding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#AutonomousOrWithEnoughInformalSupportFinding">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/406553006"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#NoNeedForPersonalCareAssistanceFinding"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/365469004"/>
+        <rdfs:label>Autonomous or with enough informal support (finding)</rdfs:label>
+        <skos:prefLabel>Autonomous or with enough informal support</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CoexistenceAssessmentProcedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CoexistenceAssessmentProcedure">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/225342001"/>
+        <rdfs:label>Coexistence assessment (procedure)</rdfs:label>
+        <skos:prefLabel>Coexistence assessment</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CoexistenceFinding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CoexistenceFinding">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/365448001"/>
+        <rdfs:label>Coexistence (finding)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CoexistenceObservable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CoexistenceObservable">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/160476009"/>
+        <rdfs:label>Coexistence (observable entity)</rdfs:label>
+        <skos:prefLabel>Coexistence</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#DaysSinceInjuryToEVSFQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#DaysSinceInjuryToEVSFQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#DaysSinceInjuryQuality"/>
+        <rdfs:label>Days since injury to EVSF (quality)</rdfs:label>
+        <skos:prefLabel>Days since injury to EVSF</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EVSFEvaluation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EVSFEvaluation">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/386053000"/>
+        <rdfs:label>EVSF evaluation</rdfs:label>
+        <skos:altLabel xml:lang="es">Evaluación mediante Escala de Valoración Sociofamiliar</skos:altLabel>
+        <skos:prefLabel>EVSF evaluation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EVSFHistoryTakingProcedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EVSFHistoryTakingProcedure">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/84100007"/>
+        <rdfs:label>EVSF history taking (procedure)</rdfs:label>
+        <skos:prefLabel>EVSF history taking</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EVSFSession -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EVSFSession">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/386053000"/>
+        <rdfs:label xml:lang="es">EVSF session</rdfs:label>
+        <skos:prefLabel xml:lang="es">EVSF session</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EconomicSituationAssessmentProcedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EconomicSituationAssessmentProcedure">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/225342001"/>
+        <rdfs:label>Economic situation assessment (procedure)</rdfs:label>
+        <skos:prefLabel>Economic situation assessment</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EconomicSituationFinding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EconomicSituationFinding">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/365550006"/>
+        <rdfs:label>Economic situation (finding)</rdfs:label>
+        <skos:prefLabel>Economic situation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EconomicSituationObservable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EconomicSituationObservable">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/224164009"/>
+        <rdfs:label>Economic situation (observable entity)</rdfs:label>
+        <skos:prefLabel>Economic situation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FamilyOrCoreOfCoexistenceIsAbleToProvideTheRequiredSupport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FamilyOrCoreOfCoexistenceIsAbleToProvideTheRequiredSupport">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/224504003"/>
+        <rdfs:label>Family/core of existence is able to provide the required support (finding)</rdfs:label>
+        <skos:prefLabel>Family/core of existence is able to provide the required support</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FamilyOrCoreOfCoexistenceWithLimitedCapacityOfProvidingSupport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FamilyOrCoreOfCoexistenceWithLimitedCapacityOfProvidingSupport">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/224506001"/>
+        <rdfs:label>Family/core of coexistence with limited capacity of providing support (finding)</rdfs:label>
+        <skos:prefLabel>Family/core of coexistence with limited capacity of providing support</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FamilySupportAssessmentProcedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FamilySupportAssessmentProcedure">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/225342001"/>
+        <rdfs:label>Family support assessment (procedure)</rdfs:label>
+        <skos:prefLabel>Family support assessment</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FamilySupportObservable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#FamilySupportObservable">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/160476009"/>
+        <rdfs:label>Family support (observable entity)</rdfs:label>
+        <skos:prefLabel>Family support</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannEVSF -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannEVSF">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#Dataset"/>
+        <rdfs:label>Guttmann EVSF (Dataset)</rdfs:label>
+        <skos:prefLabel>Guttmann EVSF</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannInstitute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#GuttmannInstitute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/6/SemanticDataModel#Organization"/>
+        <rdfs:label>Guttmann Institute (Organization)</rdfs:label>
+        <skos:prefLabel>Guttmann Institute</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HomeStatusFinding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HomeStatusFinding">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/365508006"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HomeStatusObservable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HomeStatusObservable">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/302149003"/>
+        <rdfs:label>Home status (observable entity)</rdfs:label>
+        <skos:prefLabel>Home status</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HousingContainsStructuralBarriersToMovementWithAdaptionPossibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HousingContainsStructuralBarriersToMovementWithAdaptionPossibility">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/423155007"/>
+        <rdfs:label>Housing contains structural barriers to movement with adaption possibility (finding)</rdfs:label>
+        <skos:prefLabel>Housing contains structural barriers to movement with adaption possibility</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HousingContainsStructuralBarriersToMovementWithNoAdaptionPossibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HousingContainsStructuralBarriersToMovementWithNoAdaptionPossibility">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/423155007"/>
+        <rdfs:label>Housing contains structural barriers to movement with no adaption possibility (finding)</rdfs:label>
+        <skos:prefLabel>Housing contains structural barriers to movement with no adaption possibility</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#InadequateSocialSupportButPrivateServicesAvailableFinding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#InadequateSocialSupportButPrivateServicesAvailableFinding">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/425022003"/>
+        <rdfs:label>Inadequate social support but private services available (finding)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#InadequateSocialSupportNeedOfPublicServicesFinding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#InadequateSocialSupportNeedOfPublicServicesFinding">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/425022003"/>
+        <rdfs:label>Inadequate social support and need of public services (finding)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LivesWithDisabledPerson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LivesWithDisabledPerson">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/365481000"/>
+        <rdfs:label>Lives with a disabled person (finding)</rdfs:label>
+        <skos:prefLabel>Lives with a disabled person (finding)</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LivesWithNonRelativesOrDisabledPerson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LivesWithNonRelativesOrDisabledPerson">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/430793000"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#LivesWithDisabledPerson"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/365481000"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CoexistenceFinding"/>
+        <rdfs:label>Lives with non-relatives or disabled person (finding)</rdfs:label>
+        <skos:prefLabel>Lives with non-relatives or disabled person (finding)</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#NeedsInstitutionalAlternativeFinding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#NeedsInstitutionalAlternativeFinding">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/15936341000119106"/>
+        <rdfs:label>Need institutional alternative (finding)</rdfs:label>
+        <skos:prefLabel>Need institutional alternative</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#NoNeedForPersonalCareAssistanceFinding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#NoNeedForPersonalCareAssistanceFinding">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/365469004"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://snomed.info/id/15936341000119106"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label>No need for personal care assistance (finding)</rdfs:label>
+        <skos:prefLabel>No need for personal care assistance</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SocialSupportAssessmentProcedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#SocialSupportAssessmentProcedure">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/225342001"/>
+        <rdfs:label>Social support assessment (procedure)</rdfs:label>
+        <skos:prefLabel>Social support assessment</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#StableIncomeInsufficientToMeetNeeds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#StableIncomeInsufficientToMeetNeeds">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/224188006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/224191006"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EconomicSituationFinding"/>
+        <rdfs:label>Stable income insufficient to meet needs (finding)</rdfs:label>
+        <skos:prefLabel>Stable income insufficient to meet needs</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#StableIncomeSufficientToMeetNeeds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#StableIncomeSufficientToMeetNeeds">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/224188006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/224190007"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EconomicSituationFinding"/>
+        <rdfs:label>Stable income sufficient to meet needs (finding)</rdfs:label>
+        <skos:prefLabel>Stable income sufficient to meet needs</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#UnknownCoexistence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#UnknownCoexistence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#CoexistenceFinding"/>
+        <rdfs:label>Unknown coexistence (finding)</rdfs:label>
+        <skos:prefLabel>Unknown coexistence</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#UnknownEconomicSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#UnknownEconomicSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#EconomicSituationFinding"/>
+        <rdfs:label>Unknown economic situation (finding)</rdfs:label>
+        <skos:prefLabel>Unknown economic situation details</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#UnknownFamilySupport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#UnknownFamilySupport">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/365469004"/>
+        <rdfs:label>Unknown family support (finding)</rdfs:label>
+        <skos:prefLabel>Unknown family support</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#UnknownHomeStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#UnknownHomeStatus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#HomeStatusFinding"/>
+        <rdfs:label>Unknown home status (finding)</rdfs:label>
+        <skos:prefLabel>Unknown home status</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#UnknownSocialSupport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#UnknownSocialSupport">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/365854008"/>
+        <rdfs:label>Unknown social support (finding)</rdfs:label>
+        <skos:prefLabel>Unknown social support</skos:prefLabel>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
